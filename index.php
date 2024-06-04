@@ -2,7 +2,7 @@
     $completion = "";
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Your OpenAI API key
-        $apiKey = 'OPENAI_API_KEY';
+        $apiKey = 'YOUR_OPENAI_API_KEY';
 
         // The message you want to send to OpenAI
         $message = $_POST['message'];
